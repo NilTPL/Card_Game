@@ -21,6 +21,10 @@ bool promptYesNo(std::string text) {
 	return YesNo;
 }
 
+void GrabACard(Hand hand, Deck deck) {
+	hand.Grab(deck.GetDeck());
+	deck.PopCard();
+}
 
 
 int main()
@@ -31,6 +35,7 @@ int main()
 
 	Deck deck;
 	Hand hand;
+	Hand dealerhand;
 	/*
 	deck.Shuffle();
 	deck.Print();
@@ -53,14 +58,15 @@ int main()
 	// ^^^ This prints out just a shuffled deck.
 
 	deck.Shuffle();
-	for (int i = 1; i <= 2; i++)
-	{
-		hand.Grab(deck.GetDeck());
-		deck.PopCard();
-	}
+	GrabACard(hand, deck);
 	std::cout << "your hand is:";
 	hand.Print();
 	std::cout << ", The value of your hand is: " << hand.Values() << std::endl;
+	GrabACard(dealerhand, deck);
+	std::cout << "The dealer's hand is:";
+	dealerhand.Print();
+	GrabACard(dealerhand, deck);
+	std::cout << ", The value of the dealer's hand is:" << dealerhand.Values() << " + the value of the second, unknown card in their hand." << std::endl;
 	do {
 		if (hand.Values() <= 21) {
 			bool value = promptYesNo("\nTake one more? If no, you will finish this turn. (Y/N)");
@@ -82,19 +88,10 @@ int main()
 			break;
 		}
 	} while (true);
+
+
 	system("cls");
 	std::cout << "------------END TURN-----------" << std::endl;
-
-	// Now the dealer will grab cards
-	Hand dealerhand;
-	for (int i = 1; i <= 2; i++)
-	{
-		dealerhand.Grab(deck.GetDeck());
-		deck.PopCard();
-	}
-
-	std::cout << "The dealer has drawn their hand." << std::endl;
-	sleep_for(seconds(1));
 
 	std::cout << "\nYour cards have a value of " << hand.Values() << "." << std::endl;
 	sleep_for(seconds(5));
