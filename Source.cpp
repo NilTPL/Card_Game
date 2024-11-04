@@ -21,7 +21,7 @@ bool promptYesNo(std::string text) {
 	return YesNo;
 }
 
-void GrabACard(Hand hand, Deck deck) {
+void GrabACard(Hand& hand, Deck& deck) {
 	hand.Grab(deck.GetDeck());
 	deck.PopCard();
 }
@@ -35,7 +35,6 @@ int main()
 
 	Deck deck;
 	Hand hand;
-	Hand dealerhand;
 	/*
 	deck.Shuffle();
 	deck.Print();
@@ -62,11 +61,12 @@ int main()
 	std::cout << "your hand is:";
 	hand.Print();
 	std::cout << ", The value of your hand is: " << hand.Values() << std::endl;
+	Hand dealerhand;
 	GrabACard(dealerhand, deck);
 	std::cout << "The dealer's hand is:";
 	dealerhand.Print();
-	GrabACard(dealerhand, deck);
-	std::cout << ", The value of the dealer's hand is:" << dealerhand.Values() << " + the value of the second, unknown card in their hand." << std::endl;
+	std::cout << " XX ";
+	std::cout << ", The value of the dealer's hand is at least " << dealerhand.Values() << std::endl;
 	do {
 		if (hand.Values() <= 21) {
 			bool value = promptYesNo("\nTake one more? If no, you will finish this turn. (Y/N)");
@@ -78,6 +78,10 @@ int main()
 				std::cout << "Your hand is:";
 				hand.Print();
 				std::cout << ", The value of your hand is: " << hand.Values() << std::endl;
+				std::cout << "The dealer's hand is:";
+				dealerhand.Print();
+				std::cout << " XX ";
+				std::cout << ", The value of the dealer's hand is at least " << dealerhand.Values() << std::endl;
 			}
 			else break;
 		}
@@ -89,13 +93,16 @@ int main()
 		}
 	} while (true);
 
+	GrabACard(dealerhand, deck);
 
 	system("cls");
 	std::cout << "------------END TURN-----------" << std::endl;
 
 	std::cout << "\nYour cards have a value of " << hand.Values() << "." << std::endl;
 	sleep_for(seconds(5));
-	std::cout << "The value of the dealer's hand is " << dealerhand.Values() << std::endl;
+	std::cout << "The dealer's hand is:";
+	dealerhand.Print();
+	std::cout << ", The value of the dealer's hand is " << dealerhand.Values() << std::endl;
 	sleep_for(seconds(3));
 	std::cout << std::endl;
 	if (hand.Values() <= 21 && hand.Values() > dealerhand.Values())
@@ -119,6 +126,5 @@ int main()
 		std::cout << "Both you and the dealer have an acceptable hand, but you both drew the same value cards. It's a draw!" << std::endl;
 	}
 	else { std::cout << "Something messed up in the logic, please inform the developer!" << std::endl; }
-	system("pause");
 	return 0;
 }

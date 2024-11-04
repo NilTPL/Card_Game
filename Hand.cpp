@@ -28,6 +28,10 @@ int Hand::Values()
 	return values;
 }
 
+std::deque<Card*> Hand::GetHand()
+{
+	return hand;
+}
 void Hand::Print()
 {
 	for (Card* card : hand)

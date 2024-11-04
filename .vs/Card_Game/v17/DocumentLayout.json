@@ -7,20 +7,28 @@
       "RelativeMoniker": "D:0:0:{3CFB36AB-E1A1-4BEA-8544-44204D0DB2B7}|Card_Game.vcxproj|solutionrelative:Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CFB36AB-E1A1-4BEA-8544-44204D0DB2B7}|Card_Game.vcxproj|C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3CFB36AB-E1A1-4BEA-8544-44204D0DB2B7}|Card_Game.vcxproj|solutionrelative:Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CFB36AB-E1A1-4BEA-8544-44204D0DB2B7}|Card_Game.vcxproj|C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3CFB36AB-E1A1-4BEA-8544-44204D0DB2B7}|Card_Game.vcxproj|solutionrelative:Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3CFB36AB-E1A1-4BEA-8544-44204D0DB2B7}|Card_Game.vcxproj|C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Deck.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3CFB36AB-E1A1-4BEA-8544-44204D0DB2B7}|Card_Game.vcxproj|solutionrelative:Deck.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3CFB36AB-E1A1-4BEA-8544-44204D0DB2B7}|Card_Game.vcxproj|C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Hand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3CFB36AB-E1A1-4BEA-8544-44204D0DB2B7}|Card_Game.vcxproj|solutionrelative:Hand.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB36AB-E1A1-4BEA-8544-44204D0DB2B7}|Card_Game.vcxproj|C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3CFB36AB-E1A1-4BEA-8544-44204D0DB2B7}|Card_Game.vcxproj|solutionrelative:Card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB36AB-E1A1-4BEA-8544-44204D0DB2B7}|Card_Game.vcxproj|C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Hand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3CFB36AB-E1A1-4BEA-8544-44204D0DB2B7}|Card_Game.vcxproj|solutionrelative:Hand.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3CFB36AB-E1A1-4BEA-8544-44204D0DB2B7}|Card_Game.vcxproj|C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3CFB36AB-E1A1-4BEA-8544-44204D0DB2B7}|Card_Game.vcxproj|solutionrelative:Deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CFB36AB-E1A1-4BEA-8544-44204D0DB2B7}|Card_Game.vcxproj|C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3CFB36AB-E1A1-4BEA-8544-44204D0DB2B7}|Card_Game.vcxproj|solutionrelative:Card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +38,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Hand.cpp",
+              "DocumentMoniker": "C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Hand.cpp",
+              "RelativeDocumentMoniker": "Hand.cpp",
+              "ToolTip": "C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Hand.cpp",
+              "RelativeToolTip": "Hand.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-04T17:34:55.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Hand.h",
+              "DocumentMoniker": "C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Hand.h",
+              "RelativeDocumentMoniker": "Hand.h",
+              "ToolTip": "C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Hand.h",
+              "RelativeToolTip": "Hand.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-04T17:31:55.951Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,51 +72,51 @@
               "RelativeDocumentMoniker": "Source.cpp",
               "ToolTip": "C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Source.cpp",
               "RelativeToolTip": "Source.cpp",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAADkAAAAtAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAYwIEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-03T13:25:38.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Deck.cpp",
               "DocumentMoniker": "C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Deck.cpp",
               "RelativeDocumentMoniker": "Deck.cpp",
               "ToolTip": "C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Deck.cpp",
               "RelativeToolTip": "Deck.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAOAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABMAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-03T13:15:58.467Z"
+              "WhenOpened": "2024-11-03T13:15:58.467Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Deck.h",
               "DocumentMoniker": "C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Deck.h",
               "RelativeDocumentMoniker": "Deck.h",
               "ToolTip": "C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Deck.h",
               "RelativeToolTip": "Deck.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-03T13:13:56.542Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Card.cpp",
               "DocumentMoniker": "C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Card.cpp",
               "RelativeDocumentMoniker": "Card.cpp",
               "ToolTip": "C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Card.cpp",
               "RelativeToolTip": "Card.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACcAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-03T13:03:50.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T13:03:50.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Card.h",
               "DocumentMoniker": "C:\\Users\\NilT\\Documents\\C\u002B\u002B\\Card_Game\\Card.h",
               "RelativeDocumentMoniker": "Card.h",
