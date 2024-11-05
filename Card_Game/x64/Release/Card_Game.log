@@ -1,9 +1,0 @@
-﻿  Deck.cpp
-  Hand.cpp
-  Source.cpp
-C:\Users\NilT\Documents\C++\Card_Game\Source.cpp(34,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Generating code
-  Previous IPDB and IOBJ mismatch, fall back to full compilation.
-  All 321 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  Card_Game.vcxproj -> C:\Users\NilT\Documents\C++\Card_Game\x64\Release\Card_Game.exe
