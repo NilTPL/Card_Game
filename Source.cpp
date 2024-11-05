@@ -58,6 +58,7 @@ int main()
 
 	deck.Shuffle();
 	GrabACard(hand, deck);
+	GrabACard(hand, deck);
 	std::cout << "your hand is:";
 	hand.Print();
 	std::cout << ", The value of your hand is: " << hand.Values() << std::endl;
