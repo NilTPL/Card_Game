@@ -10,10 +10,6 @@ Hand::Hand()
 
 Hand::~Hand()
 {
-	for (Card* card : hand)
-	{
-		delete card;
-	}
 	hand.clear();
 }
 
