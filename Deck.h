@@ -10,7 +10,7 @@ public:
 	~Deck();
 
 
-	std::deque<Card*> GetDeck();
+	std::deque<Card*>& GetDeck();
 	void Print();
 	void Shuffle();
 	

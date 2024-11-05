@@ -24,7 +24,7 @@ int Hand::Values()
 	return values;
 }
 
-std::deque<Card*> Hand::GetHand()
+std::deque<Card*>& Hand::GetHand()
 {
 	return hand;
 }

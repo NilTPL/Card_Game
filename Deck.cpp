@@ -23,7 +23,7 @@ Deck::~Deck()
 	deck.clear();
 }
 
-std::deque<Card*> Deck::GetDeck() 
+std::deque<Card*>& Deck::GetDeck() 
 { 
 	return deck; 
 }
