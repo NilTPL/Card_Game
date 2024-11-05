@@ -50,8 +50,7 @@
               "RelativeToolTip": "Hand.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-04T17:34:55.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T17:34:55.936Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "Hand.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-04T17:31:55.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T17:31:55.951Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "Deck.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-03T13:15:58.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T13:15:58.467Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "Deck.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T13:13:56.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T13:13:56.542Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "Card.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-03T13:03:50.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T13:03:50.74Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "Card.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-03T12:58:43.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T12:58:43.978Z"
             }
           ]
         }
