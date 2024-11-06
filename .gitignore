@@ -401,5 +401,3 @@ FodyWeavers.xsd
 /x64
 /.vs
 /Card_Game/x64
-Card_Game.vcxproj
-Card_Game.vcxproj.filters
