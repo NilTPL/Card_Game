@@ -111,6 +111,7 @@ int main()
 
 		sleep_for(seconds(2));
 		playerWantsToPlay = promptYesNo("Would you like to play again? (Y/N)");
+		system("cls");
 	}
 	std::cout << "Thanks for playing!" << std::endl;
 	return 0;
