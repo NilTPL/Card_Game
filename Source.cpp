@@ -42,7 +42,6 @@ int main()
 	while (playerWantsToPlay == true)	{
 		hand.GetHand().clear();
 		dealerhand.GetHand().clear();
-		std::cout << hand.GetHand().size();
 		GrabACard(hand, deck);
 		GrabACard(hand, deck);
 		std::cout << "your hand is:";
