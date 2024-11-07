@@ -10,12 +10,12 @@ public:
 	~Deck();
 
 
-	std::deque<Card*>& GetDeck();
+	std::deque<Card>& GetDeck();
 	void Print();
 	void Shuffle();
 	
-	Card* TopCard();
+	Card TopCard();
 	void PopCard();
 private:
-	std::deque<Card*> deck;
+	std::deque<Card> deck;
 };

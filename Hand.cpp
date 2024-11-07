@@ -17,29 +17,29 @@ Hand::~Hand()
 int Hand::Values()
 {
 	int values = 0;
-	for (Card* card : hand)
+	for (Card card : hand)
 	{
-		values += card->GetFaceValue();
+		values += card.GetFaceValue();
 	}
 	return values;
 }
 
-std::deque<Card*>& Hand::GetHand()
+std::deque<Card>& Hand::GetHand()
 {
 	return hand;
 }
 void Hand::Print()
 {
-	for (Card* card : hand)
+	for (Card card : hand)
 	{
 		std::cout << " ";
-		card->Print();
+		card.Print();
 	}
 }
 
-void Hand::Grab(std::deque<Card*> deck)
+void Hand::Grab(std::deque<Card>& deck)
 {
-	hand.push_front(deck.front());
+	hand.emplace_front(deck.front());
 	
 }
 
