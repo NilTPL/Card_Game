@@ -9,10 +9,10 @@ public:
 	Hand();
 	~Hand();
 
-	std::deque<Card*>& GetHand();
+	std::deque<Card>& GetHand();
 	void Print();
-	void Grab(std::deque<Card*> deck);
+	void Grab(std::deque<Card>& deck);
 	int Values();
 private:
-	std::deque<Card*> hand;
+	std::deque<Card> hand;
 };
