@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "Hand.h"
 #include <iostream>
 #include "Deck.h"

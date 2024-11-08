@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "Deck.h"
 #include <algorithm>
 #include <iostream>
@@ -9,7 +10,7 @@ Deck::Deck()
 	{
 		for (Card::Suits s = Card::HEARTS; s <= Card::SPADES; s = static_cast<Card::Suits>(static_cast<int>(s) + 1))
 		{
-			deck.emplace_front(Card(r, s));
+			deck.emplace_front(r, s);
 		}
 	}
 }
