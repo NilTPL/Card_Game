@@ -40,7 +40,7 @@ public:
 	void updateMousePos();
 	void update();
 	void updateText();
-	void renderText(sf::RenderTarget& target);
+	void renderText(sf::RenderTarget& target, sf::Text text);
 	void render();
 
 
@@ -48,6 +48,4 @@ private:
 	void initVariables();
 	void initWindow();
 	void initFonts();
-	void initText();
-	void initButtons();
 };

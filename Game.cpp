@@ -2,11 +2,10 @@
 #include "Game.h"
 #include "Deck.h"
 #include "Hand.h"
-
+#include "Text.h"
 
 #include <iostream>
 #include <ctime>
-#include <sstream>
 
 //Privates
 void Game::initVariables()
@@ -16,6 +15,7 @@ void Game::initVariables()
 	Deck basicDeck;
 	Hand playersHand;
 	Hand dealersHand;
+	TextObject startText(this->consolasFont, this->window, 16, L"Start");
 
 }
 
@@ -35,36 +35,14 @@ void Game::initFonts()
 	}
 }
 
-void Game::initText()
-{
-	this->uiText.setFont(this->consolasFont);
-	this->uiText.setCharacterSize(16);
-	this->uiText.setFillColor(sf::Color::White);
-	this->uiText.setOrigin(this->uiText.getLocalBounds().getSize() / 2.f + this->uiText.getLocalBounds().getPosition());
-	std::cout << static_cast<std::string>(this->uiText.getLocalBounds().getSize() / 2.f);
-	this->uiText.setPosition(this->window->getSize().x / 2.f, this->window->getSize().y / 2.f);
-	this->uiText.setString("EMPTY");
-}
-
-void Game::initButtons()
-{
-	/*
-	this->button.setFillColor(sf::Color(255, 255, 255));
-	this->button.setCharacterSize(16);
-	this->button.setFont(this->consolasFont);
-	this->button.setPosition((this->window->getSize().x - 20.f), (this->window->getSize().y - 20.f));
-	*/
-}
-
 
 
 //Constructors
 Game::Game()
 {
-	this->initVariables();
 	this->initWindow();
 	this->initFonts();
-	this->initText();
+	this->initVariables();
 }
 
 Game::~Game()
@@ -120,22 +98,20 @@ void Game::update()
 
 void Game::updateText()
 {
-	std::stringstream stringStream;
-	stringStream << "something i want to print";
-	this->uiText.setString(stringStream.str());
+	
 }
 
 
-void Game::renderText(sf::RenderTarget& target)
+void Game::renderText(sf::RenderTarget& target, sf::Text text)
 {
-	target.draw(this->uiText);
+	target.draw(text);
 }
 
 void Game::render()
 {
 	this->window->clear(sf::Color(20, 20, 20));
 
-	this->renderText(*this->window);
+	this->renderText(*this->window, uiText);
 
 	//LAST
 	this->window->display();

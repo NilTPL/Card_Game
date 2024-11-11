@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "Game.h"
 #include <iostream>
 
@@ -15,7 +15,7 @@ int main()
 
 
 	//Game loop
-	while (game.running())
+	while (game.running()) // do these \/ each frame
 	{
 		//Update
 		game.update();
