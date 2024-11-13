@@ -33,6 +33,8 @@ int main()
 	while (window.isOpen())
 	{
 		//UPDATE
+		sf::Vector2i mousePixelPosition = sf::Mouse::getPosition();
+		sf::Vector2f mouseWorldPosition = window.mapPixelToCoords(mousePixelPosition);
 		sf::Event event;
 		while (window.pollEvent(event))
 		{
@@ -40,8 +42,15 @@ int main()
 				window.close();
 			if (event.type == sf::Keyboard::Escape)
 				window.close();
+			if (event.type == sf::Mouse::isButtonPressed(sf::Mouse::Button))
+			{
+				if (shape.getGlobalBounds().contains(mouseWorldPosition)) {
+					std::cout << "clicked on circle \n";
+				}
+				else std::cout << "failed to click \n";
+			}
 		}
-
+		// ^ UPDATE
 
 		//DRAW
 		window.clear(sf::Color(20, 30, 50));
